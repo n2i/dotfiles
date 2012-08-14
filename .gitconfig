@@ -1,0 +1,16 @@
+[user]
+	name = xuansamdinh
+	email = n2i.linux@gmail.com
+[github]
+	user = xuansamdinh
+	token = f0ec6cf2a8f3df1e51c8223059e78a96
+[core]
+	editor = vim
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+[gui]
+	fontui = -family Consolas -size -12 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Consolas -size -12 -weight normal -slant roman -underline 0 -overstrike 0

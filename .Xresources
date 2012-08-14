@@ -1,0 +1,176 @@
+#ifdef COLOR
+*customization:	-color
+#endif
+
+!==============================================================================
+! CURSOR THEME
+!------------------------------------------------------------------------------
+Xcursor.theme: ComixCursors-Black-Small
+
+emacs.font: -misc-fixed-medium-r-normal-*-13-120-75-75-c-80-iso10646-1
+!------------------------------------------------------------------------------
+!	FONT - Settings
+!------------------------------------------------------------------------------
+!#define FONT -misc-fixed-medium-r-normal-*-13-120-75-75-c-80-iso10646-1
+xterm*font: -misc-fixed-medium-r-normal-*-13-120-75-75-c-80-iso10646-1
+urxvt*font: -misc-fixed-medium-r-normal-*-13-120-75-75-c-80-iso10646-1
+!urxvt*font: -xos4-terminus-medium-r-normal-*-14-140-72-72-c-80-iso10646-1
+!urxvt*font: -misc-fixed-medium-r-normal-*-13-120-*-*-c-*-iso10646-1
+
+
+!xterm*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+!xterm*faceName: Unifont
+!xterm*faceSize: 13
+!xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+!xterm*font: -*-fixed-medium-*-*-*-14-*-*-*-*-*-*-*
+!xterm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
+!xterm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
+!xterm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
+!xterm*font4: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
+!xterm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
+!xterm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
+!xterm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
+!
+
+
+!------------------------------------------------------------------------------
+!	XTERM - Settings
+!------------------------------------------------------------------------------
+
+xterm*class:			UXTerm
+!xterm*background:       #1E231F
+xterm*background:       #1e231f
+!xterm*background:       #08080a
+xterm*foreground:		#DCDCCC
+xterm*cursorColor:      #DCDCCC
+xterm.vt100.geometry:   80x25
+xterm*reverseWrap:      true
+xterm*scrollKey:        true
+xterm*saveLines:        2000
+xterm*scrollBar:        false
+xterm*scrollTtyOutput:  false
+xterm*cursorBlink:		true
+xterm*cursorUnderLine:	true
+xterm*locale:			true
+xterm.vt100.utf8: 		1
+xterm.vt100.eightBitInput:		false
+xterm.vt100.metaSendsEscape:	true
+xterm.vt100.locale:		UTF-8
+xterm*AlwaysBoldMode:	false
+xterm*allowBoldFonts:	true
+xterm*renderFont:		true
+!xterm*inputMethod:		xim
+
+! Color and font selection.
+x!xterm.vt100.background: #1E231F
+!xterm.vt100.background: #08080a
+xterm.vt100.foreground: #DCDCCC
+xterm.vt100.boldMode: true
+
+
+xterm.vt100.colorUL: #DCDCCC
+xterm.vt100.colorBD: #CDCDAD
+
+!black
+xterm.vt100.color0: #1E231F
+xterm.vt100.color8: #709080
+!red
+xterm.vt100.color1: #705050
+xterm.vt100.color9: #DCA3A3
+!green
+xterm.vt100.color2: #60B48A
+xterm.vt100.color10: #C3BF9F
+!yellow
+xterm.vt100.color3: #DFAF8F
+xterm.vt100.color11: #F0DFAF
+!blue
+xterm.vt100.color4: #506070
+xterm.vt100.color12: #94BFF3
+!magenta
+xterm.vt100.color5: #DC8CC3
+xterm.vt100.color13: #EC93D3
+!cyan
+xterm.vt100.color6: #8CD0D3
+xterm.vt100.color14: #93E0E3
+!white
+xterm.vt100.color7: #DCDCCC
+xterm.vt100.color15: #FFFFFF
+
+!------------------------------------------------------------------------------
+!	URXVT - Settings
+!------------------------------------------------------------------------------
+urxvt*dpi:        96
+urxvt*antialias:  true
+urxvt*rgba:       vrgb
+urxvt*hinting:    true
+urxvt*hintstyle:  hintslight
+
+
+urxvt*geometry:					80x25
+urxvt*foreground:				#CCCCCC
+!urxvt*foreground:				#DCDCCC
+!urxvt*background:				#1E231F
+!urxvt*borderLess:				true
+!urxvt.title:					cli
+urxvt*depth:					32
+!urxvt*scrollBar_right:			true
+urxvt*scrollBar:				false
+!urxvt*font:					xft:unifont-12
+urxvt*colorBD:                  #CDCDAD
+!urxvt*cursor:					i-beam
+urxvt*cursorBlink:				true
+urxvt*cursorUnderline:			true
+urxvt.urlLauncher:				/usr/bin/firefox-bin
+!urxvt*scrollColor:				#3f3f3f
+!urxvt.inputMethod: 				xim
+!urxvt.preeditType: 				OnTheSpot,None
+urxvt*perl-lib:                 /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:          default,matcher,tabbed
+urxvt*matcher.button:           1
+urxvt*cutchars:                 `""()''*<>[]{|}
+! Transeparent
+!urxvt*depth: 32
+!urxvt*background: rgba:0000/0000/0200/dddd
+urxvt*background: rgba:0000/0000/0200/b800
+
+!colors
+!black
+urxvt*color0:					#3f3f3f
+urxvt*color8:					#709080
+!red
+urxvt*color1:					#705050
+urxvt*color9:					#DCA3A3
+!green
+urxvt*color2:					#60B48A
+urxvt*color10:					#C3BF9F
+!yellow
+urxvt*color3:					#DFAF8F
+urxvt*color11:					#F0DFAF
+!blue
+urxvt*color4:					#506070
+urxvt*color12:					#94BFF3
+!magenta
+urxvt*color5:					#DC8CC3
+urxvt*color13:					#EC93D3
+!cyan
+urxvt*color6:					#8CD0D3
+urxvt*color14:					#93E0E3
+!white
+urxvt*color7:					#DCDCCC
+urxvt*color15:					#FFFFFF
+
+
+!Emacs.geometry: 80x50
+!Emacs.font:		FONT
+!Emacs.pane.menubar.shadowThickness: 1
+!Emacs.pane.menubar.margin: 1
+!Emacs.toolBar: off
+!Emacs.menuBar: off
+!Emacs.verticalScrollBars: off
+!Emacs.cursorColor: magenta
+!Emacs.useXIM:	false
+!Emacs.FontBackend: xft
+
+!xterm*termName:					xterm
+!xterm*fs:						medium
